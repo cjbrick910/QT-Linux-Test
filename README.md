@@ -12,7 +12,7 @@ currently, this program displays a simple X window using the QT libraries.
 
 #### instructions:
 1. clone the repository
-2. make the qmake project file (may or may not be included in repository, but it is usually recommented to recreate this on your own system): `qmake --project`
+2. make the qmake project file (may or may not be included in repository, but it is usually recommented to recreate this on your own system): `qmake -project`
 2. run `qmake` again, to create a makefile and a few other necessary files
 3. `make` to make the executable
 4. run the executable through the shell or your respective GUI.
