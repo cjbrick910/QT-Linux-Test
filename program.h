@@ -5,13 +5,13 @@
 #include <QPushButton>
 #include <QLabel>
 
-//creates a new QWidget class for a button "Button"
+//creates a new QWidget class for the main window
 class program : public QWidget {
     public:
         program(QWidget *parent=0);
 };
 
-//method using the Button class
+//method using the program class
 program::program(QWidget *parent):QWidget(parent) {
 
   //create a new QPushButton object "quitBtn" and give it a label "Quit"
