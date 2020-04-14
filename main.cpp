@@ -7,6 +7,8 @@
 //main method
 int main(int argc, char *argv[]) {
 
+
+
   //application object, needed for every Qt application
   QApplication app(argc, argv);
 
@@ -19,12 +21,9 @@ int main(int argc, char *argv[]) {
   //sets the window title
   window.setWindowTitle("Simple example");
 
-  //sets a tooltip that shows up on mouseover
-  window.setToolTip("woah cool a tooltip");
-
   //I'm too lazy to create an application icon, but if you wanted to, here's how:
   //window.SetWindowIcon(QIcon("image.png"));
-
+  
   //shows the window
   window.show();
 

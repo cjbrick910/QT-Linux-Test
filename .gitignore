@@ -3,6 +3,7 @@
 *.pro.user
 *.o
 *.stash
+main.o
 #ignore vscode stuff
 *.vscode/
 moc_*
