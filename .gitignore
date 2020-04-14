@@ -7,3 +7,5 @@ main.o
 #ignore vscode stuff
 *.vscode/
 moc_*
+#ignoring makefile
+makefile
