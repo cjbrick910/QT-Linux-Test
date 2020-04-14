@@ -8,4 +8,4 @@ main.o
 *.vscode/
 moc_*
 #ignoring makefile
-makefile
+Makefile
