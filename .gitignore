@@ -5,3 +5,4 @@
 *.stash
 #ignore vscode stuff
 *.vscode/
+moc_*
