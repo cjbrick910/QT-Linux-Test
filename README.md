@@ -1,14 +1,13 @@
 # QT-Linux-Test
-This is a test of the Qt libraries for c++
 
-currently, this program displays a simple X window using the QT libraries.
+A test of the Qt libraries for c++
 
 ### compiling/running
 
 #### dependencies:
 * qt5 (latest verstion)
 * build-essentials
-* a simple x windows setup (any DE or WM capable of running qt applications)
+* a gui setup (usually just xorg + a DE or WM that can run Qt applications)
 
 #### instructions:
 1. clone the repository
