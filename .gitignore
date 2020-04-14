@@ -9,3 +9,5 @@ main.o
 moc_*
 #ignoring makefile
 Makefile
+#ignore executable
+qt-linux-test
