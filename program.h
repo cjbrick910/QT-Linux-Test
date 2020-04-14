@@ -6,7 +6,7 @@
 #include <QMenuBar>
 #include <QMainWindow>
 #include <QStatusBar>
-//creates a new QWidget class for the main window
+//creates a new class for the main window
 class program : public QMainWindow {
   Q_OBJECT  
 

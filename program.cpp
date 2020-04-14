@@ -9,11 +9,14 @@ program::program(QWidget *parent):QMainWindow(parent) {
 	QPushButton *quitBtn = new QPushButton("Quit", this);
 	//sets the location of the "quitBtn" button
 	quitBtn->setGeometry(50, 40, 75, 30);
+    //sets the tooltip of the button
     quitBtn->setToolTip("cool");
 	//connects the button to the main app, and tells the application to quit if the button is pressed
 	connect(quitBtn, &QPushButton::clicked, qApp, &QApplication::quit);
 
+    //creating another QAction object
     viewst = new QAction("&View statusbar", this);
+    //setting the Action as checkable (using a checkbox)
 	viewst->setCheckable(true);
 	viewst->setChecked(true);
 
@@ -27,13 +30,13 @@ program::program(QWidget *parent):QMainWindow(parent) {
 	file->addAction(quit);
 
 	//connect the menu and actions to the main app
-	//connect(quit, &QAction::triggered, qApp, QApplication::quit);
+	connect(quit, &QAction::triggered, qApp, QApplication::quit);
 	connect(viewst, &QAction::triggered, this, &program::toggleStatusbar);
 }
 
 
 void program::toggleStatusbar() {
-    
+  //conditionals that show or hide the status bar  
   if (viewst->isChecked()) {
       
       statusBar()->show();
