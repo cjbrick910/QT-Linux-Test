@@ -3,3 +3,5 @@
 *.pro.user
 *.o
 *.stash
+#ignore vscode stuff
+*.vscode/
