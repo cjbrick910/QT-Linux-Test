@@ -1,0 +1,3 @@
+# ignore qmake project files
+*.pro
+*.pro.user
