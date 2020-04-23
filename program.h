@@ -10,12 +10,12 @@
 class program : public QMainWindow {
   Q_OBJECT  
 
-  public:
-    program(QWidget *parent = 0);
- 
-  private slots:
-    void toggleStatusbar();
-
-  private:
-    QAction *viewst;
+public:
+  program(QWidget *parent = 0);
+			      
+private slots:
+  void toggleStatusbar();
+  //void saveToFile();
+private:
+  QAction *viewst;
 };
