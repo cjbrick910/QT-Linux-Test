@@ -1,0 +1,3 @@
+/home/lenin/git/qt-linux-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lenin/git/qt-linux-test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lenin/git/qt-linux-test/cmake-build-debug/CMakeFiles/qt_linux_test.dir

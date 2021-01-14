@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/qt_linux_test.dir/main.cpp.o CMakeFiles/qt_linux_test.dir/moc_program.cpp.o CMakeFiles/qt_linux_test.dir/program.cpp.o  -o qt_linux_test 
